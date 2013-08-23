@@ -1,0 +1,62 @@
+Minimum match cutoff: 100 bp ...
+Insert size range: 200 to 400 bp (exluding read lengths, negative value implies overlap of paired reads)...
+Mate pair lib must have been REVCOMPED before blastn!!
+
+Reading blastn results..
+For gi|190570478|ref|NC_010981.1|_988124_988470_0/1
+	gi|190570478|ref|NC_010981.1|	1	988124	988223
+	gi|42519920|ref|NC_002978.6|	-1	1063808	1063907
+	gi|225629872|ref|NC_012416.1|	-1	1372642	1372741
+	gi|58584261|ref|NC_006833.1|	1	322188	322287
+For gi|190570478|ref|NC_010981.1|_988124_988470_0/2
+	gi|225629872|ref|NC_012416.1|	1	1372395	1372494
+	gi|190570478|ref|NC_010981.1|	-1	988371	988470
+For gi|190570478|ref|NC_010981.1|_936878_937475_1/1
+	gi|190570478|ref|NC_010981.1|	-1	937376	937475
+For gi|190570478|ref|NC_010981.1|_936878_937475_1/2
+	gi|190570478|ref|NC_010981.1|	1	936878	936977
+	gi|58584261|ref|NC_006833.1|	1	85061	85160
+	gi|42519920|ref|NC_002978.6|	-1	164252	164351
+For gi|190570478|ref|NC_010981.1|_144510_145015_2/1
+	gi|190570478|ref|NC_010981.1|	1	144510	144609
+For gi|190570478|ref|NC_010981.1|_144510_145015_2/2
+	gi|190570478|ref|NC_010981.1|	-1	144916	145015
+	gi|58584261|ref|NC_006833.1|	-1	642640	642739
+	gi|42519920|ref|NC_002978.6|	-1	890333	890432
+	gi|225629872|ref|NC_012416.1|	-1	953215	953314
+For gi|190570478|ref|NC_010981.1|_1295004_1295455_3/1
+	gi|190570478|ref|NC_010981.1|	-1	1295356	1295455
+For gi|190570478|ref|NC_010981.1|_1295004_1295455_3/2
+	gi|190570478|ref|NC_010981.1|	1	1295004	1295103
+	gi|58584261|ref|NC_006833.1|	1	263387	263486
+	gi|42519920|ref|NC_002978.6|	-1	366231	366330
+	gi|225629872|ref|NC_012416.1|	1	438489	438588
+For gi|190570478|ref|NC_010981.1|_529874_530476_4/1
+	gi|190570478|ref|NC_010981.1|	-1	530377	530476
+	gi|225629872|ref|NC_012416.1|	1	182076	182175
+	gi|42519920|ref|NC_002978.6|	1	176149	176248
+For gi|190570478|ref|NC_010981.1|_529874_530476_4/2
+	gi|190570478|ref|NC_010981.1|	1	529874	529973
+For gi|190570478|ref|NC_010981.1|_1154502_1155087_5/1
+	gi|190570478|ref|NC_010981.1|	-1	1154988	1155087
+	gi|225629872|ref|NC_012416.1|	-1	1308094	1308193
+	gi|42519920|ref|NC_002978.6|	-1	1187414	1187513
+For gi|190570478|ref|NC_010981.1|_1154502_1155087_5/2
+	gi|190570478|ref|NC_010981.1|	1	1154502	1154601
+	gi|58584261|ref|NC_006833.1|	1	124460	124559
+Read 12 blastn results..
+Length of blastnwreads hash: 12
+Searching for qualifying read pairs..
+	Rejected Fwd: gi|190570478|ref|NC_010981.1|_529874_530476_4/1 and Rev: gi|190570478|ref|NC_010981.1|_529874_530476_4/2 due to insert length: -602	Fwd strand: -1	Rev strand: 1
+	Selected Fwd: gi|190570478|ref|NC_010981.1|_144510_145015_2/1 and Rev: gi|190570478|ref|NC_010981.1|_144510_145015_2/2 with insert length: 307. fwd on pos and rev on comp strand for INNIES
+	Rejected Fwd: gi|190570478|ref|NC_010981.1|_988124_988470_0/1 and Rev: gi|190570478|ref|NC_010981.1|_988124_988470_0/2 due to insert length: 148	Fwd strand: 1	Rev strand: -1
+	Rejected Fwd: gi|190570478|ref|NC_010981.1|_988124_988470_0/1 and Rev: gi|190570478|ref|NC_010981.1|_988124_988470_0/2 due to insert length: -346	Fwd strand: -1	Rev strand: 1
+	Rejected Fwd: gi|190570478|ref|NC_010981.1|_1295004_1295455_3/1 and Rev: gi|190570478|ref|NC_010981.1|_1295004_1295455_3/2 due to insert length: -451	Fwd strand: -1	Rev strand: 1
+	Rejected Fwd: gi|190570478|ref|NC_010981.1|_936878_937475_1/1 and Rev: gi|190570478|ref|NC_010981.1|_936878_937475_1/2 due to insert length: -597	Fwd strand: -1	Rev strand: 1
+	Rejected Fwd: gi|190570478|ref|NC_010981.1|_1154502_1155087_5/1 and Rev: gi|190570478|ref|NC_010981.1|_1154502_1155087_5/2 due to insert length: -585	Fwd strand: -1	Rev strand: 1
+
+Found 1 qualifying read pairs..
+Writing qualifying and unmapped reads..
+Wrote 2 qualifying reads and 10 unmapped reads
+System time for process: 0.000 hrs
+User time for process: 0.000 hrs

@@ -1,0 +1,1848 @@
+BLASTN 2.2.24+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ALL_FNA
+           37 sequences; 66,334,500 total letters
+
+
+
+Query=  gi|190570478|ref|NC_010981.1|_953959_954514_0:0:0_0:0:0_0/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       AGTAAGGTTTTCACTCCATAAAATTCCGTAAATCCTTCAAAAAACCACTTATATTTTATT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  953959  AGTAAGGTTTTCACTCCATAAAATTCCGTAAATCCTTCAAAAAACCACTTATATTTTATT  954018
+
+Query  61      TCATTTTTCTTATCGTTGTCTTGCTCTATTATATGTCCTA  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  954019  TCATTTTTCTTATCGTTGTCTTGCTCTATTATATGTCCTA  954058
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_953959_954514_0:0:0_0:0:0_0/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1      TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  43293  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  43234
+
+Query  61     TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+              ||||||||||||||||||||||||||||||||||||||||
+Sbjct  43233  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  43194
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1      TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  50710  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  50651
+
+Query  61     TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+              ||||||||||||||||||||||||||||||||||||||||
+Sbjct  50650  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  50611
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1      TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  89577  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  89518
+
+Query  61     TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+              ||||||||||||||||||||||||||||||||||||||||
+Sbjct  89517  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  89478
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1      TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  89930  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  89871
+
+Query  61     TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+              ||||||||||||||||||||||||||||||||||||||||
+Sbjct  89870  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  89831
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  112881  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  112940
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  112941  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  112980
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  115941  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  116000
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  116001  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  116040
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  120545  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  120486
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  120485  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  120446
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  142820  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  142879
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  142880  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  142919
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  189697  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  189756
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  189757  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  189796
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  220610  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  220551
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  220550  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  220511
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  246799  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  246858
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  246859  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  246898
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  247098  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  247157
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  247158  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  247197
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  362294  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  362235
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  362234  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  362195
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  374870  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  374929
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  374930  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  374969
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  394832  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  394773
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  394772  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  394733
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  397309  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  397250
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  397249  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  397210
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  400686  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  400745
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  400746  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  400785
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  430867  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  430808
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  430807  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  430768
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  463742  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  463683
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  463682  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  463643
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  524604  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  524663
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  524664  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  524703
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  554522  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  554463
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  554462  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  554423
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  575632  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  575573
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  575572  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  575533
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  587836  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  587777
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  587776  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  587737
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  641403  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  641462
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  641463  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  641502
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  642425  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  642484
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  642485  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  642524
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  726919  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  726978
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  726979  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  727018
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  799217  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  799276
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  799277  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  799316
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  923118  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  923177
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  923178  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  923217
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  954514  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  954455
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  954454  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  954415
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  979521  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  979580
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  979581  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  979620
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  986755  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  986814
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  986815  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  986854
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  997854  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  997795
+
+Query  61      TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  997794  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  997755
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1018413  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1018354
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1018353  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1018314
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1079559  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1079618
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1079619  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1079658
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1089418  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1089359
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1089358  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1089319
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1095139  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1095080
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1095079  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1095040
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1096063  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1096122
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1096123  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1096162
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1114343  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1114284
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1114283  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1114244
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1173015  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1173074
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1173075  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1173114
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1173993  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1173934
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1173933  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1173894
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1189835  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1189776
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1189775  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1189736
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1190339  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1190280
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1190279  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1190240
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1231652  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1231711
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1231712  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1231751
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1298638  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1298579
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1298578  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1298539
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1365116  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1365057
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1365056  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1365017
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1369377  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1369318
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1369317  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1369278
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1440731  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1440790
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1440791  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1440830
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1456006  TTGAGCATACAAGACATAGATCGCCAACAAATTTCCTAATTCATGTTTTTTCTGTTCTGA  1456065
+
+Query  61       TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1456066  TTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1456105
+
+
+ Score = 98.7 bits (108),  Expect = 1e-20
+ Identities = 54/54 (100%), Gaps = 0/54 (0%)
+ Strand=Plus/Plus
+
+Query  47      TTTTTCTGTTCTGATTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  953107  TTTTTCTGTTCTGATTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  953160
+
+
+ Score = 98.7 bits (108),  Expect = 1e-20
+ Identities = 54/54 (100%), Gaps = 0/54 (0%)
+ Strand=Plus/Plus
+
+Query  47       TTTTTCTGTTCTGATTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  100
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1453096  TTTTTCTGTTCTGATTTCCTACTCCATGCAGTCCAAAAAGCCTTCTATTTCTAT  1453149
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_560903_561212_0:0:0_0:0:0_1/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       CCGGAAATGAGTGAGATTGGGAGGCAGTTTCTTGCGATGGTGCAGGATCTTTCTTCATAC  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  561212  CCGGAAATGAGTGAGATTGGGAGGCAGTTTCTTGCGATGGTGCAGGATCTTTCTTCATAC  561153
+
+Query  61      CGATATCTGCTTGTGTTGCAGGGGTGGCTTTGCTCTTAGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  561152  CGATATCTGCTTGTGTTGCAGGGGTGGCTTTGCTCTTAGC  561113
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_560903_561212_0:0:0_0:0:0_1/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       AGGCTAGATATTGTTGATCAACAAGTGAGCACGAAACCAATAATAGTAGAAGTGACTTCG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  560903  AGGCTAGATATTGTTGATCAACAAGTGAGCACGAAACCAATAATAGTAGAAGTGACTTCG  560962
+
+Query  61      CAAAAATCAGCTGAAAGTAAACCAATCCTGAAAAAATCTG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  560963  CAAAAATCAGCTGAAAGTAAACCAATCCTGAAAAAATCTG  561002
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_736745_737524_0:0:0_0:0:0_2/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome     138    1e-32
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   125    7e-29
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...  82.4    8e-16
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TATGATGATGCAGTATCGCTTATTGATGAAAATTATCAAAATAATATAACCGATGAATTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  736745  TATGATGATGCAGTATCGCTTATTGATGAAAATTATCAAAATAATATAACCGATGAATTT  736804
+
+Query  61      ATCAGGCCCGCAATAATAGGCGATTATCAAGGTATAAAAC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  736805  ATCAGGCCCGCAATAATAGGCGATTATCAAGGTATAAAAC  736844
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score =  138 bits (152),  Expect = 1e-32
+ Identities = 90/99 (90%), Gaps = 0/99 (0%)
+ Strand=Plus/Plus
+
+Query  2       ATGATGATGCAGTATCGCTTATTGATGAAAATTATCAAAATAATATAACCGATGAATTTA  61
+               ||||| ||||||||||| | ||||||||||||||||||||||| ||||| ||||| ||||
+Sbjct  905255  ATGATAATGCAGTATCGTTGATTGATGAAAATTATCAAAATAACATAACTGATGAGTTTA  905314
+
+Query  62      TCAGGCCCGCAATAATAGGCGATTATCAAGGTATAAAAC  100
+               ||||||||||| ||||||| || ||||||||||||||||
+Sbjct  905315  TCAGGCCCGCAGTAATAGGTGACTATCAAGGTATAAAAC  905353
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  125 bits (138),  Expect = 7e-29
+ Identities = 87/99 (87%), Gaps = 0/99 (0%)
+ Strand=Plus/Plus
+
+Query  2       ATGATGATGCAGTATCGCTTATTGATGAAAATTATCAAAATAATATAACCGATGAATTTA  61
+               ||||| ||||||||||| | |||||  | || ||||||||||| ||||| ||||| ||||
+Sbjct  841171  ATGATAATGCAGTATCGTTGATTGAGAATAACTATCAAAATAACATAACTGATGAGTTTA  841230
+
+Query  62      TCAGGCCCGCAATAATAGGCGATTATCAAGGTATAAAAC  100
+               ||||||||||| ||||||| |||||||||||||||||||
+Sbjct  841231  TCAGGCCCGCAGTAATAGGTGATTATCAAGGTATAAAAC  841269
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score = 82.4 bits (90),  Expect = 8e-16
+ Identities = 69/85 (81%), Gaps = 0/85 (0%)
+ Strand=Plus/Minus
+
+Query  16      TCGCTTATTGATGAAAATTATCAAAATAATATAACCGATGAATTTATCAGGCCCGCAATA  75
+               ||| | |||||| | || ||||||||||||||||| ||||||||||| |||||  || ||
+Sbjct  516694  TCGTTGATTGATAATAACTATCAAAATAATATAACTGATGAATTTATTAGGCCTACAGTA  516635
+
+Query  76      ATAGGCGATTATCAAGGTATAAAAC  100
+               ||||| || ||  |||| ||| |||
+Sbjct  516634  ATAGGTGACTACAAAGGCATAGAAC  516610
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_736745_737524_0:0:0_0:0:0_2/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome     134    1e-31
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   134    1e-31
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...   107    2e-23
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       ATCTCTCAGTTTTAAATTTTCACAAGATATAATAAATGGAACTTTATTTAGAGTGTGCGC  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  737524  ATCTCTCAGTTTTAAATTTTCACAAGATATAATAAATGGAACTTTATTTAGAGTGTGCGC  737465
+
+Query  61      TGTCTGAGGTGTGTTATTTTCTTCATCGAACATACATTCC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  737464  TGTCTGAGGTGTGTTATTTTCTTCATCGAACATACATTCC  737425
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score =  134 bits (148),  Expect = 1e-31
+ Identities = 89/99 (89%), Gaps = 0/99 (0%)
+ Strand=Plus/Minus
+
+Query  2       TCTCTCAGTTTTAAATTTTCACAAGATATAATAAATGGAACTTTATTTAGAGTGTGCGCT  61
+               ||||| ||||||| ||| || ||||| | ||||||||| ||||||||||||||||| |||
+Sbjct  906032  TCTCTTAGTTTTAGATTATCGCAAGACACAATAAATGGCACTTTATTTAGAGTGTGTGCT  905973
+
+Query  62      GTCTGAGGTGTGTTATTTTCTTCATCGAACATACATTCC  100
+               || |||||||| |||||||||||||||||||||||||||
+Sbjct  905972  GTATGAGGTGTATTATTTTCTTCATCGAACATACATTCC  905934
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  134 bits (148),  Expect = 1e-31
+ Identities = 89/99 (89%), Gaps = 0/99 (0%)
+ Strand=Plus/Minus
+
+Query  2       TCTCTCAGTTTTAAATTTTCACAAGATATAATAAATGGAACTTTATTTAGAGTGTGCGCT  61
+               ||||| ||||||| ||| || ||||| | ||||||||| ||||||||||||||||| |||
+Sbjct  841948  TCTCTTAGTTTTAGATTATCGCAAGACACAATAAATGGCACTTTATTTAGAGTGTGTGCT  841889
+
+Query  62      GTCTGAGGTGTGTTATTTTCTTCATCGAACATACATTCC  100
+               || |||||||| |||||||||||||||||||||||||||
+Sbjct  841888  GTATGAGGTGTATTATTTTCTTCATCGAACATACATTCC  841850
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score =  107 bits (118),  Expect = 2e-23
+ Identities = 68/74 (91%), Gaps = 0/74 (0%)
+ Strand=Plus/Plus
+
+Query  27      ATATAATAAATGGAACTTTATTTAGAGTGTGCGCTGTCTGAGGTGTGTTATTTTCTTCAT  86
+               |||||||||| |||||||||||||||||||| ||||| |||||||| ||||||| |||||
+Sbjct  515956  ATATAATAAACGGAACTTTATTTAGAGTGTGTGCTGTGTGAGGTGTATTATTTTTTTCAT  516015
+
+Query  87      CGAACATACATTCC  100
+               | ||||||||||||
+Sbjct  516016  CAAACATACATTCC  516029
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_1460241_1460692_0:0:0_0:0:0_3/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   131    2e-30
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1      CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  47111  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  47170
+
+Query  61     CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+              ||||||||||||||||||||||||||||||||||||||||
+Sbjct  47171  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  47210
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1      CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61978  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  61919
+
+Query  61     CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+              ||||||||||||||||||||||||||||||||||||||||
+Sbjct  61918  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  61879
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  103018  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  102959
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  102958  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  102919
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  129883  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  129824
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  129823  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  129784
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  155744  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  155803
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  155804  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  155843
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  200713  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  200772
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  200773  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  200812
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  295725  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  295666
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  295665  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  295626
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  426057  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  426116
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  426117  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  426156
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  505851  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  505792
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  505791  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  505752
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  553259  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  553200
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  553199  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  553160
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  887234  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  887293
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  887294  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  887333
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  952512  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  952571
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  952572  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  952611
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1306192  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  1306251
+
+Query  61       CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1306252  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  1306291
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1320169  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  1320110
+
+Query  61       CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1320109  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  1320070
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1335190  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  1335131
+
+Query  61       CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1335130  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  1335091
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1452501  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  1452560
+
+Query  61       CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1452561  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  1452600
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1460241  CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  1460300
+
+Query  61       CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1460301  CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  1460340
+
+
+ Score =  105 bits (116),  Expect = 7e-23
+ Identities = 80/93 (86%), Gaps = 1/93 (1%)
+ Strand=Plus/Plus
+
+Query  4        AAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTTCCT  63
+                ||||| | |||||||||||||||||| ||||  || || |||||||| ||||||||||||
+Sbjct  1088045  AAAGAGAAAGGAGTAGAAGATATCCTGATTGTATGTGTAGATGGGCT-AAAAGCTTTCCT  1088103
+
+Query  64       GCAGCTATAAACAGTGTCTTTCCTAATGCGGAA  96
+                 |||| ||||||||||| |||||||| || |||
+Sbjct  1088104  ACAGCAATAAACAGTGTATTTCCTAAAGCAGAA  1088136
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  131 bits (144),  Expect = 2e-30
+ Identities = 89/100 (89%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       CTCAAAGAAAGAGGAGTAGAAGATATCCTTATTGCCTGCGTTGATGGGCTGAAAAGCTTT  60
+               |||||||||||||||||||||||||| || ||||||||| ||||||| || |||||||||
+Sbjct  239755  CTCAAAGAAAGAGGAGTAGAAGATATTCTAATTGCCTGCATTGATGGACTAAAAAGCTTT  239696
+
+Query  61      CCTGCAGCTATAAACAGTGTCTTTCCTAATGCGGAAGTGC  100
+               ||| |||||||||| ||||| ||||| | ||| |||||||
+Sbjct  239695  CCTACAGCTATAAATAGTGTATTTCCCAGTGCAGAAGTGC  239656
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_1460241_1460692_0:0:0_0:0:0_3/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   109    5e-24
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1      GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  61527  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  61586
+
+Query  61     AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+              ||||||||||||||||||||||||||||||||||||||||
+Sbjct  61587  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  61626
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  156195  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  156136
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  156135  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  156096
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  201164  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  201105
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  201104  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  201065
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  295274  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  295333
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  295334  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  295373
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  426508  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  426449
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  426448  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  426409
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  505400  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  505459
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  505460  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  505499
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  552808  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  552867
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  552868  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  552907
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  887685  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  887626
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  887625  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  887586
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  952963  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  952904
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  952903  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  952864
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1306643  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  1306584
+
+Query  61       AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1306583  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  1306544
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1319718  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  1319777
+
+Query  61       AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1319778  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  1319817
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1334739  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  1334798
+
+Query  61       AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1334799  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  1334838
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1452952  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  1452893
+
+Query  61       AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1452892  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  1452853
+
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1460692  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  1460633
+
+Query  61       AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1460632  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  1460593
+
+
+ Score =  172 bits (190),  Expect = 5e-43
+ Identities = 99/100 (99%), Gaps = 1/100 (1%)
+ Strand=Plus/Minus
+
+Query  1      GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+              |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||
+Sbjct  47561  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAA-TGAGCCTTTGGTCTTAGTG  47503
+
+Query  61     AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+              ||||||||||||||||||||||||||||||||||||||||
+Sbjct  47502  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  47463
+
+
+ Score =  172 bits (190),  Expect = 5e-43
+ Identities = 99/100 (99%), Gaps = 1/100 (1%)
+ Strand=Plus/Plus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||
+Sbjct  102568  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAA-TGAGCCTTTGGTCTTAGTG  102626
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  102627  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  102666
+
+
+ Score =  172 bits (190),  Expect = 5e-43
+ Identities = 99/100 (99%), Gaps = 1/100 (1%)
+ Strand=Plus/Plus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||
+Sbjct  129433  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAA-TGAGCCTTTGGTCTTAGTG  129491
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  129492  AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  129531
+
+
+ Score =  131 bits (144),  Expect = 2e-30
+ Identities = 89/100 (89%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||| ||
+Sbjct  386359  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCCTTGGTTTTAATG  386418
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               |||||||| |||   ||||| | |||||| || |||||||
+Sbjct  386419  AATTTCCTGATTCATCTATGCAACCCCTCAATTGGATTGG  386458
+
+
+ Score =  131 bits (144),  Expect = 2e-30
+ Identities = 89/100 (89%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||| ||
+Sbjct  422397  GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCCTTGGTTTTAATG  422456
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATTGG  100
+               |||||||| |||   ||||| | |||||| || |||||||
+Sbjct  422457  AATTTCCTGATTCATCTATGCAACCCCTCAATTGGATTGG  422496
+
+
+ Score =  114 bits (126),  Expect = 1e-25
+ Identities = 84/98 (85%), Gaps = 0/98 (0%)
+ Strand=Plus/Plus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               |||||||||||||| || ||||||||| ||||||||||||||||||| ||||| || || 
+Sbjct  360874  GCACAATATACCTGTTTGTACAAGGCACTTATGCTGGTAAATGAGCCCTTGGTTTTGGTA  360933
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATT  98
+               ||||| || ||||| ||||| || ||||| || |||||
+Sbjct  360934  AATTTTCTGATTTGTCTATGCAGGCCCTCAATTGGATT  360971
+
+
+ Score =  100 bits (110),  Expect = 3e-21
+ Identities = 81/98 (82%), Gaps = 0/98 (0%)
+ Strand=Plus/Plus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               |||||||||||||| | ||| ||||||||| |||| ||||||||||| || || ||||| 
+Sbjct  922147  GCACAATATACCTGTTCATAGAAGGCATTTGTGCTAGTAAATGAGCCCTTAGTTTTAGTA  922206
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATT  98
+               ||||| || || || ||||||| ||| || || |||||
+Sbjct  922207  AATTTTCTGATCTGTCTATGTAACCCTTCAATAGGATT  922244
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  109 bits (120),  Expect = 5e-24
+ Identities = 83/98 (84%), Gaps = 0/98 (0%)
+ Strand=Plus/Plus
+
+Query  1       GCACAATATACCTGCTTATACAAGGCATTTATGCTGGTAAATGAGCCTTTGGTCTTAGTG  60
+               |||||||||||||| || |||||||||||| ||||||||||||| || || || ||||| 
+Sbjct  239304  GCACAATATACCTGTTTGTACAAGGCATTTGTGCTGGTAAATGAACCCTTAGTTTTAGTA  239363
+
+Query  61      AATTTCCTAATTTGCCTATGTAGCCCCTCTATGGGATT  98
+               |||||||| ||||| ||||| | ||| || || |||||
+Sbjct  239364  AATTTCCTGATTTGTCTATGCAACCCTTCAATTGGATT  239401
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_368050_368536_0:0:0_0:0:0_4/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...  68.0    2e-11
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       GGTAGACCAATTGATTCCAAGAAAAACACTTCTCACCGTCCTTGGTTTTGGTTGCCGGAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  368050  GGTAGACCAATTGATTCCAAGAAAAACACTTCTCACCGTCCTTGGTTTTGGTTGCCGGAA  368109
+
+Query  61      GTGATCATATTATTTGAGTTTTTAATGATAAATAATATTA  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  368110  GTGATCATATTATTTGAGTTTTTAATGATAAATAATATTA  368149
+
+
+ Score = 73.4 bits (80),  Expect = 4e-13
+ Identities = 69/88 (78%), Gaps = 0/88 (0%)
+ Strand=Plus/Minus
+
+Query  1       GGTAGACCAATTGATTCCAAGAAAAACACTTCTCACCGTCCTTGGTTTTGGTTGCCGGAA  60
+               |||||||||| |||||||||  |||| ||||||||| | |    ||||||||||| | ||
+Sbjct  500046  GGTAGACCAACTGATTCCAAAGAAAAAACTTCTCACGGGCAGAAGTTTTGGTTGCTGAAA  499987
+
+Query  61      GTGATCATATTATTTGAGTTTTTAATGA  88
+               ||||  || ||| || |||| ||| |||
+Sbjct  499986  GTGACTATGTTACTTAAGTTATTAGTGA  499959
+
+
+ Score = 71.6 bits (78),  Expect = 1e-12
+ Identities = 60/74 (81%), Gaps = 0/74 (0%)
+ Strand=Plus/Minus
+
+Query  1       GGTAGACCAATTGATTCCAAGAAAAACACTTCTCACCGTCCTTGGTTTTGGTTGCCGGAA  60
+               ||||||||||||||||||||  ||||||  ||||||  | ||||||||||||| | | ||
+Sbjct  312967  GGTAGACCAATTGATTCCAAAGAAAACAGCTCTCACGTTTCTTGGTTTTGGTTACTGAAA  312908
+
+Query  61      GTGATCATATTATT  74
+               ||| | |  |||||
+Sbjct  312907  GTGGTTAAGTTATT  312894
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score = 68.0 bits (74),  Expect = 2e-11
+ Identities = 69/90 (76%), Gaps = 0/90 (0%)
+ Strand=Plus/Minus
+
+Query  5       GACCAATTGATTCCAAGAAAAACACTTCTCACCGTCCTTGGTTTTGGTTGCCGGAAGTGA  64
+               |||||| | ||||||| |||||  ||||||||  |   |||||||||||||   || |||
+Sbjct  456336  GACCAACTCATTCCAAAAAAAAATCTTCTCACGCTTGCTGGTTTTGGTTGCTAAAAATGA  456277
+
+Query  65      TCATATTATTTGAGTTTTTAATGATAAATA  94
+               |  ||||  ||| ||||||||| ||| |||
+Sbjct  456276  TTGTATTGCTTGTGTTTTTAATAATATATA  456247
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_368050_368536_0:0:0_0:0:0_4/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TGGGATGTATCGCAATCGGCGTTTGGCGTTGTTAAAAGTAGTGTGAAATATACTTGTGGT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  368536  TGGGATGTATCGCAATCGGCGTTTGGCGTTGTTAAAAGTAGTGTGAAATATACTTGTGGT  368477
+
+Query  61      AGCATTATTGAGTGTTCAAAAAGTAGCATTAACAGTGTAG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  368476  AGCATTATTGAGTGTTCAAAAAGTAGCATTAACAGTGTAG  368437
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_340591_341286_0:0:0_0:0:0_5/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome     113    4e-25
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   113    4e-25
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TTAAATTAAGCCCTGTTCCACCAGCTTTTAAAGATACTATGAGAATATTTGATCGAAATG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  341286  TTAAATTAAGCCCTGTTCCACCAGCTTTTAAAGATACTATGAGAATATTTGATCGAAATG  341227
+
+Query  61      AGTTTTCAAAATCATTAACCATTTTGTCTCGTGCTTTACG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  341226  AGTTTTCAAAATCATTAACCATTTTGTCTCGTGCTTTACG  341187
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score =  113 bits (124),  Expect = 4e-25
+ Identities = 83/97 (85%), Gaps = 0/97 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTAAATTAAGCCCTGTTCCACCAGCTTTTAAAGATACTATGAGAATATTTGATCGAAATG  60
+               |||||||||||||||||||||||||||||||||| ||||| ||||| || ||  | ||| 
+Sbjct  609837  TTAAATTAAGCCCTGTTCCACCAGCTTTTAAAGACACTATAAGAATGTTGGACTGGAATA  609896
+
+Query  61      AGTTTTCAAAATCATTAACCATTTTGTCTCGTGCTTT  97
+               |||||| ||| ||||||| |||| | || ||||||||
+Sbjct  609897  AGTTTTGAAAGTCATTAATCATTGTATCACGTGCTTT  609933
+
+
+ Score =  113 bits (124),  Expect = 4e-25
+ Identities = 83/97 (85%), Gaps = 0/97 (0%)
+ Strand=Plus/Plus
+
+Query  1        TTAAATTAAGCCCTGTTCCACCAGCTTTTAAAGATACTATGAGAATATTTGATCGAAATG  60
+                |||||||||||||||||||||||||||||||||| ||||| ||||| || ||  | ||| 
+Sbjct  1116296  TTAAATTAAGCCCTGTTCCACCAGCTTTTAAAGACACTATAAGAATGTTGGACTGGAATA  1116355
+
+Query  61       AGTTTTCAAAATCATTAACCATTTTGTCTCGTGCTTT  97
+                |||||| ||| ||||||| |||| | || ||||||||
+Sbjct  1116356  AGTTTTGAAAGTCATTAATCATTGTATCACGTGCTTT  1116392
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  113 bits (124),  Expect = 4e-25
+ Identities = 83/97 (85%), Gaps = 0/97 (0%)
+ Strand=Plus/Plus
+
+Query  1       TTAAATTAAGCCCTGTTCCACCAGCTTTTAAAGATACTATGAGAATATTTGATCGAAATG  60
+               |||||||||||||||||||||||||||||||||| ||||| ||||| || ||  | ||| 
+Sbjct  588709  TTAAATTAAGCCCTGTTCCACCAGCTTTTAAAGACACTATAAGAATGTTGGACTGGAATA  588768
+
+Query  61      AGTTTTCAAAATCATTAACCATTTTGTCTCGTGCTTT  97
+               |||||| ||| ||||||| |||| | || ||||||||
+Sbjct  588769  AGTTTTGAAAGTCATTAATCATTGTATCACGTGCTTT  588805
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_340591_341286_0:0:0_0:0:0_5/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome     109    5e-24
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   109    5e-24
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       TAGCAATGAGTGGTACACCTGTTGAAAATAGGCTACTAGAATATTGGAGTATTTTTGATT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  340591  TAGCAATGAGTGGTACACCTGTTGAAAATAGGCTACTAGAATATTGGAGTATTTTTGATT  340650
+
+Query  61      TTACTAATAAATATTACCTTGGTACTCCTAAGGAATTTAA  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  340651  TTACTAATAAATATTACCTTGGTACTCCTAAGGAATTTAA  340690
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score =  109 bits (120),  Expect = 5e-24
+ Identities = 84/100 (84%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TAGCAATGAGTGGTACACCTGTTGAAAATAGGCTACTAGAATATTGGAGTATTTTTGATT  60
+               |||| ||||||||||| |||||||| |||||| | || || |||||||| |||||||| |
+Sbjct  610532  TAGCTATGAGTGGTACGCCTGTTGAGAATAGGTTGCTTGAGTATTGGAGCATTTTTGACT  610473
+
+Query  61      TTACTAATAAATATTACCTTGGTACTCCTAAGGAATTTAA  100
+               |||  || |||| ||| ||||||||||||||| | |||||
+Sbjct  610472  TTATCAACAAATCTTATCTTGGTACTCCTAAGCAGTTTAA  610433
+
+
+ Score =  109 bits (120),  Expect = 5e-24
+ Identities = 84/100 (84%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TAGCAATGAGTGGTACACCTGTTGAAAATAGGCTACTAGAATATTGGAGTATTTTTGATT  60
+                |||| ||||||||||| |||||||| |||||| | || || |||||||| |||||||| |
+Sbjct  1116991  TAGCTATGAGTGGTACGCCTGTTGAGAATAGGTTGCTTGAGTATTGGAGCATTTTTGACT  1116932
+
+Query  61       TTACTAATAAATATTACCTTGGTACTCCTAAGGAATTTAA  100
+                |||  || |||| ||| ||||||||||||||| | |||||
+Sbjct  1116931  TTATCAACAAATCTTATCTTGGTACTCCTAAGCAGTTTAA  1116892
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  109 bits (120),  Expect = 5e-24
+ Identities = 84/100 (84%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TAGCAATGAGTGGTACACCTGTTGAAAATAGGCTACTAGAATATTGGAGTATTTTTGATT  60
+               |||| ||||||||||| |||||||| |||||| | || || |||||||| |||||||| |
+Sbjct  589404  TAGCTATGAGTGGTACGCCTGTTGAGAATAGGTTGCTTGAGTATTGGAGCATTTTTGACT  589345
+
+Query  61      TTACTAATAAATATTACCTTGGTACTCCTAAGGAATTTAA  100
+               |||  || |||| ||| ||||||||||||||| | |||||
+Sbjct  589344  TTATCAACAAATCTTATCTTGGTACTCCTAAGCAGTTTAA  589305
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+  Database: ALL_FNA
+    Posted date:  Mar 2, 2011  6:52 PM
+  Number of letters in database: 66,334,500
+  Number of sequences in database:  37
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

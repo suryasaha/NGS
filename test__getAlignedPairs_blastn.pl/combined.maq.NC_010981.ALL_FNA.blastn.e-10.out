@@ -1,0 +1,1075 @@
+BLASTN 2.2.24+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: ALL_FNA
+           37 sequences; 66,334,500 total letters
+
+
+
+Query=  gi|190570478|ref|NC_010981.1|_988124_988470_0/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   176    4e-44
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome     154    1e-37
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...   100    3e-21
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       ATAGACCTATTCTCCATTATGCTGTCTGGTCTTGAAAAATAAACGTATTCAAAAATACAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  988124  ATAGACCTATTCTCCATTATGCTGTCTGGTCTTGAAAAATAAACGTATTCAAAAATACAA  988183
+
+Query  61      AAACTTGATTTTTGCTTTGGGAAAGGAAACATTGAGGCTA  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  988184  AAACTTGATTTTTGCTTTGGGAAAGGAAACATTGAGGCTA  988223
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  176 bits (194),  Expect = 4e-44
+ Identities = 99/100 (99%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        ATAGACCTATTCTCCATTATGCTGTCTGGTCTTGAAAAATAAACGTATTCAAAAATACAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1063907  ATAGACCTATTCTCCATTATGCTGTCTGGTCTTGAAAAATAAACGTATTCAAAAATACAA  1063848
+
+Query  61       AAACTTGATTTTTGCTTTGGGAAAGGAAACATTGAGGCTA  100
+                |||||||||||||||| |||||||||||||||||||||||
+Sbjct  1063847  AAACTTGATTTTTGCTGTGGGAAAGGAAACATTGAGGCTA  1063808
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score =  154 bits (170),  Expect = 1e-37
+ Identities = 94/100 (94%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        ATAGACCTATTCTCCATTATGCTGTCTGGTCTTGAAAAATAAACGTATTCAAAAATACAA  60
+                || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1372741  ATGGACCTATTCTCCATTATGCTGTCTGGTCTTGAAAAATAAACGTATTCAAAAATACAA  1372682
+
+Query  61       AAACTTGATTTTTGCTTTGGGAAAGGAAACATTGAGGCTA  100
+                |||||||||||||||| ||||||||||||   ||| ||||
+Sbjct  1372681  AAACTTGATTTTTGCTGTGGGAAAGGAAATGCTGAAGCTA  1372642
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score =  100 bits (110),  Expect = 3e-21
+ Identities = 82/100 (82%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       ATAGACCTATTCTCCATTATGCTGTCTGGTCTTGAAAAATAAACGTATTCAAAAATACAA  60
+               || |||||||  || |||||||||||||| ||||||||||||| ||||||||| ||||| 
+Sbjct  322188  ATGGACCTATCTTCTATTATGCTGTCTGGCCTTGAAAAATAAATGTATTCAAAGATACAG  322247
+
+Query  61      AAACTTGATTTTTGCTTTGGGAAAGGAAACATTGAGGCTA  100
+               |||||||| |||||||  |  | ||||||   ||| ||||
+Sbjct  322248  AAACTTGACTTTTGCTGAGAAAGAGGAAATGCTGAAGCTA  322287
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_988124_988470_0/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome     181    1e-45
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   174    2e-43
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...   141    9e-34
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        GATAGCTTTTTAGAGAGTTTTATATATGCATTAAAGCAAATACAAGGTGCTTATTCTTTT  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1372395  GATAGCTTTTTAGAGAGTTTTATATATGCATTAAAGCAAATACAAGGTGCTTATTCTTTT  1372454
+
+Query  61       GTGGCAATCAATCAAGAAGTAGTTATTGGAGTACGTGATC  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1372455  GTGGCAATCAATCAAGAAGTAGTTATTGGAGTACGTGATC  1372494
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       GATAGCTTTTTAGAGAGTTTTATATATGCATTAAAGCAAATACAAGGTGCTTATTCTTTT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  988470  GATAGCTTTTTAGAGAGTTTTATATATGCATTAAAGCAAATACAAGGTGCTTATTCTTTT  988411
+
+Query  61      GTGGCAATCAATCAAGAAGTAGTTATTGGAGTACGTGATC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  988410  GTGGCAATCAATCAAGAAGTAGTTATTGGAGTACGTGATC  988371
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  174 bits (192),  Expect = 2e-43
+ Identities = 98/99 (98%), Gaps = 0/99 (0%)
+ Strand=Plus/Plus
+
+Query  1        GATAGCTTTTTAGAGAGTTTTATATATGCATTAAAGCAAATACAAGGTGCTTATTCTTTT  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1063561  GATAGCTTTTTAGAGAGTTTTATATATGCATTAAAGCAAATACAAGGTGCTTATTCTTTT  1063620
+
+Query  61       GTGGCAATCAATCAAGAAGTAGTTATTGGAGTACGTGAT  99
+                || ||||||||||||||||||||||||||||||||||||
+Sbjct  1063621  GTTGCAATCAATCAAGAAGTAGTTATTGGAGTACGTGAT  1063659
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score =  141 bits (156),  Expect = 9e-34
+ Identities = 90/98 (91%), Gaps = 0/98 (0%)
+ Strand=Plus/Minus
+
+Query  2       ATAGCTTTTTAGAGAGTTTTATATATGCATTAAAGCAAATACAAGGTGCTTATTCTTTTG  61
+               |||||||| ||| |||||| |||||||||||||||||||||||||| |||||||||||||
+Sbjct  322533  ATAGCTTTCTAGGGAGTTTCATATATGCATTAAAGCAAATACAAGGCGCTTATTCTTTTG  322474
+
+Query  62      TGGCAATCAATCAAGAAGTAGTTATTGGAGTACGTGAT  99
+               | |||||||| | |||||||||| ||||||||||||||
+Sbjct  322473  TAGCAATCAACCGAGAAGTAGTTGTTGGAGTACGTGAT  322436
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_936878_937475_1/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...  86.0    6e-17
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       TGAAATATTTTATTCACCTAAAATTACATTCTACCTATTTTAAAGTAGTTTaaaaaaaCT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  937475  TGAAATATTTTATTCACCTAAAATTACATTCTACCTATTTTAAAGTAGTTTAAAAAAACT  937416
+
+Query  61      TTATAGACTGCATACAAAAGACCTAACATCTTTAGCAATG  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  937415  TTATAGACTGCATACAAAAGACCTAACATCTTTAGCAATG  937376
+
+
+ Score = 69.8 bits (76),  Expect = 5e-12
+ Identities = 54/63 (85%), Gaps = 1/63 (1%)
+ Strand=Plus/Minus
+
+Query  7      ATTTTATTCACCTAAAATTACATTCTACCTATTTT-AAAGTAGTTTaaaaaaaCTTTATA  65
+              |||||||| ||||||||||| ||| |||| ||||| ||| |||||||||  |||||| ||
+Sbjct  48382  ATTTTATTAACCTAAAATTATATTATACCCATTTTGAAAATAGTTTAAACGAACTTTGTA  48323
+
+Query  66     GAC  68
+              |||
+Sbjct  48322  GAC  48320
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score = 86.0 bits (94),  Expect = 6e-17
+ Identities = 71/84 (84%), Gaps = 2/84 (2%)
+ Strand=Plus/Minus
+
+Query  17     CCTAAAATTACATTCTACCTATTTT-AAAGTAGTTTaaaaaaaCTTTATAGA-CTGCATA  74
+              |||||||||| ||| || ||||||| ||| ||||||||| |||| ||||||| ||  |||
+Sbjct  85644  CCTAAAATTATATTTTATCTATTTTGAAAATAGTTTAAACAAACCTTATAGAACTCTATA  85585
+
+Query  75     CAAAAGACCTAACATCTTTAGCAA  98
+                |||||||||| |||||||||||
+Sbjct  85584  TGAAAGACCTAATATCTTTAGCAA  85561
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_936878_937475_1/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...   118    1e-26
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   118    1e-26
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome     114    1e-25
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       AGAGAAACATGGTCTCTATACTATTTCAATTGGCTATTTTATTGATAAGGACCGCGCAGT  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  936878  AGAGAAACATGGTCTCTATACTATTTCAATTGGCTATTTTATTGATAAGGACCGCGCAGT  936937
+
+Query  61      AATATGGCGTGGACCTATGATCACAAAAGCACTTTACAAT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  936938  AATATGGCGTGGACCTATGATCACAAAAGCACTTTACAAT  936977
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score =  118 bits (130),  Expect = 1e-26
+ Identities = 86/100 (86%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1      AGAGAAACATGGTCTCTATACTATTTCAATTGGCTATTTTATTGATAAGGACCGCGCAGT  60
+              ||||||  |||| ||  ||||||||||||||||||||||||| ||||||||| | |||| 
+Sbjct  85061  AGAGAAGTATGGACTGCATACTATTTCAATTGGCTATTTTATCGATAAGGACTGTGCAGC  85120
+
+Query  61     AATATGGCGTGGACCTATGATCACAAAAGCACTTTACAAT  100
+              ||| |||||||| ||||||||||| || || |||||||||
+Sbjct  85121  AATGTGGCGTGGGCCTATGATCACGAAGGCGCTTTACAAT  85160
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  118 bits (130),  Expect = 1e-26
+ Identities = 86/100 (86%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       AGAGAAACATGGTCTCTATACTATTTCAATTGGCTATTTTATTGATAAGGACCGCGCAGT  60
+               ||| ||  |||| ||  ||||||||||||||||||||||||| ||||| || || |||| 
+Sbjct  164351  AGAAAAGTATGGACTGCATACTATTTCAATTGGCTATTTTATCGATAAAGATCGTGCAGC  164292
+
+Query  61      AATATGGCGTGGACCTATGATCACAAAAGCACTTTACAAT  100
+               ||||||||| ||||||||||| |||||||||||||| |||
+Sbjct  164291  AATATGGCGCGGACCTATGATTACAAAAGCACTTTATAAT  164252
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score =  114 bits (126),  Expect = 1e-25
+ Identities = 83/96 (86%), Gaps = 0/96 (0%)
+ Strand=Plus/Plus
+
+Query  1      AGAGAAACATGGTCTCTATACTATTTCAATTGGCTATTTTATTGATAAGGACCGCGCAGT  60
+              ||| ||  |||| ||  ||||||||||||||||||||||||| ||||| || || |||| 
+Sbjct  77374  AGAAAAGTATGGACTGCATACTATTTCAATTGGCTATTTTATCGATAAAGATCGTGCAGC  77433
+
+Query  61     AATATGGCGTGGACCTATGATCACAAAAGCACTTTA  96
+              ||||||||| ||||||||||| ||||||||||||||
+Sbjct  77434  AATATGGCGCGGACCTATGATTACAAAAGCACTTTA  77469
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_144510_145015_2/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome     118    1e-26
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   114    1e-25
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...  71.6    1e-12
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       AAACAAAAAGGTAACCTTCTTTAACTCTCTTAGGATTACATGTGACGCCTTTGATTTCAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  144510  AAACAAAAAGGTAACCTTCTTTAACTCTCTTAGGATTACATGTGACGCCTTTGATTTCAA  144569
+
+Query  61      TATCAAAGTCAGCATTTACAATGTTATGCAGTAGCTCTTT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  144570  TATCAAAGTCAGCATTTACAATGTTATGCAGTAGCTCTTT  144609
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score =  118 bits (130),  Expect = 1e-26
+ Identities = 82/93 (88%), Gaps = 0/93 (0%)
+ Strand=Plus/Plus
+
+Query  1       AAACAAAAAGGTAACCTTCTTTAACTCTCTTAGGATTACATGTGACGCCTTTGATTTCAA  60
+               |||||||||| |||||||| || | | |||| ||||||||||||||||||||||||||||
+Sbjct  952800  AAACAAAAAGATAACCTTCCTTGATTTTCTTGGGATTACATGTGACGCCTTTGATTTCAA  952859
+
+Query  61      TATCAAAGTCAGCATTTACAATGTTATGCAGTA  93
+               ||||||||| | |||  | ||||||||||||||
+Sbjct  952860  TATCAAAGTTAACATCAATAATGTTATGCAGTA  952892
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  114 bits (126),  Expect = 1e-25
+ Identities = 81/93 (87%), Gaps = 0/93 (0%)
+ Strand=Plus/Plus
+
+Query  1       AAACAAAAAGGTAACCTTCTTTAACTCTCTTAGGATTACATGTGACGCCTTTGATTTCAA  60
+               |||||||||| |||||||| || ||||| || ||||||||||| ||||| ||||||||||
+Sbjct  889926  AAACAAAAAGATAACCTTCCTTTACTCTATTGGGATTACATGTAACGCCCTTGATTTCAA  889985
+
+Query  61      TATCAAAGTCAGCATTTACAATGTTATGCAGTA  93
+               ||||||||| | |||  | ||||||||||||||
+Sbjct  889986  TATCAAAGTTAACATCAATAATGTTATGCAGTA  890018
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score = 71.6 bits (78),  Expect = 1e-12
+ Identities = 60/74 (81%), Gaps = 0/74 (0%)
+ Strand=Plus/Plus
+
+Query  1       AAACAAAAAGGTAACCTTCTTTAACTCTCTTAGGATTACATGTGACGCCTTTGATTTCAA  60
+               |||||||||| ||| | ||||| ||| |||| ||||||||||| || || || |||||||
+Sbjct  642147  AAACAAAAAGATAATCCTCTTTGACTTTCTTCGGATTACATGTAACACCCTTAATTTCAA  642206
+
+Query  61      TATCAAAGTCAGCA  74
+               | | ||| ||| ||
+Sbjct  642207  TGTTAAAATCAACA  642220
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_144510_145015_2/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...   113    4e-25
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   104    2e-22
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome    82.4    8e-16
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       ACAGCAATGCAAGTAGCAAAGTGGCTGGaaaaacatccaaaaatcaaaaaaGTCTTATAC  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  145015  ACAGCAATGCAAGTAGCAAAGTGGCTGGAAAAACATCCAAAAATCAAAAAAGTCTTATAC  144956
+
+Query  61      CCCGCACTTTTTTCCTATTCTCAGCATGATTTATGGAAAA  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  144955  CCCGCACTTTTTTCCTATTCTCAGCATGATTTATGGAAAA  144916
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score =  113 bits (124),  Expect = 4e-25
+ Identities = 85/100 (85%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       ACAGCAATGCAAGTAGCAAAGTGGCTGGaaaaacatccaaaaatcaaaaaaGTCTTATAC  60
+               ||||||||| |||||||||||||||| ||||| ||| |||||||||||||||||||||| 
+Sbjct  642739  ACAGCAATGAAAGTAGCAAAGTGGCTAGAAAAGCATTCAAAAATCAAAAAAGTCTTATAT  642680
+
+Query  61      CCCGCACTTTTTTCCTATTCTCAGCATGATTTATGGAAAA  100
+               || ||||||  |||  |  |||| |||||  |||||||||
+Sbjct  642679  CCAGCACTTCCTTCTCACCCTCAACATGAACTATGGAAAA  642640
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  104 bits (114),  Expect = 2e-22
+ Identities = 83/100 (83%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       ACAGCAATGCAAGTAGCAAAGTGGCTGGaaaaacatccaaaaatcaaaaaaGTCTTATAC  60
+               ||||||||| |||| ||||||||||| ||||||||| |||||||||||||||| || || 
+Sbjct  890432  ACAGCAATGGAAGTGGCAAAGTGGCTAGAAAAACATTCAAAAATCAAAAAAGTTTTGTAT  890373
+
+Query  61      CCCGCACTTTTTTCCTATTCTCAGCATGATTTATGGAAAA  100
+               || ||||||   | | || |||| || || ||||||||||
+Sbjct  890372  CCAGCACTTCCCTTCCATCCTCAACACGAATTATGGAAAA  890333
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score = 82.4 bits (90),  Expect = 8e-16
+ Identities = 78/100 (78%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       ACAGCAATGCAAGTAGCAAAGTGGCTGGaaaaacatccaaaaatcaaaaaaGTCTTATAC  60
+               ||||||||| |||| ||||||||||| |||  ||| | |||| | | ||| || ||||| 
+Sbjct  953314  ACAGCAATGGAAGTGGCAAAGTGGCTAGAAGCACAGCAAAAAGTTAGAAAGGTTTTATAT  953255
+
+Query  61      CCCGCACTTTTTTCCTATTCTCAGCATGATTTATGGAAAA  100
+               || ||||||   ||| || |||| || || ||||||||||
+Sbjct  953254  CCAGCACTTCCCTCCCATCCTCAACACGAATTATGGAAAA  953215
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_1295004_1295455_3/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...  73.4    4e-13
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TATTTTATATAGAGATTGCTTACATAATTATTTTAAACTTTAGCAGTTAAATTAATATAC  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1295455  TATTTTATATAGAGATTGCTTACATAATTATTTTAAACTTTAGCAGTTAAATTAATATAC  1295396
+
+Query  61       TAATGAGAAAAATATACTACAATTAAACATATTTAATCCA  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1295395  TAATGAGAAAAATATACTACAATTAAACATATTTAATCCA  1295356
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score = 73.4 bits (80),  Expect = 4e-13
+ Identities = 55/65 (84%), Gaps = 0/65 (0%)
+ Strand=Plus/Plus
+
+Query  36      AACTTTAGCAGTTAAATTAATATACTAATGAGAAAAATATACTACAATTAAACATATTTA  95
+               || || || |||||| ||||||||||||||| ||||||| | || ||||||  |||||||
+Sbjct  365913  AATTTCAGTAGTTAATTTAATATACTAATGAAAAAAATACATTATAATTAAGTATATTTA  365972
+
+Query  96      ATCCA  100
+               |||||
+Sbjct  365973  ATCCA  365977
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_1295004_1295455_3/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...   104    2e-22
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   100    3e-21
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome    86.0    6e-17
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        GCAACACCAGCTCCTGCTCCTTGTATAAAACGGATTAATATTAAAAGTATAATATTATCA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1295004  GCAACACCAGCTCCTGCTCCTTGTATAAAACGGATTAATATTAAAAGTATAATATTATCA  1295063
+
+Query  61       GCTATGCAACATACAATACTTGCCAAAGTAAAAATTGCCA  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1295064  GCTATGCAACATACAATACTTGCCAAAGTAAAAATTGCCA  1295103
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score =  104 bits (114),  Expect = 2e-22
+ Identities = 83/100 (83%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       GCAACACCAGCTCCTGCTCCTTGTATAAAACGGATTAATATTAAAAGTATAATATTATCA  60
+               ||||| ||||||||| | |||||||| || || || | |||||| || | ||||||||||
+Sbjct  263387  GCAACCCCAGCTCCTACCCCTTGTATGAAGCGAATGAGTATTAAGAGCACAATATTATCA  263446
+
+Query  61      GCTATGCAACATACAATACTTGCCAAAGTAAAAATTGCCA  100
+               |||||  ||||  |||||||||| ||||||||||||| ||
+Sbjct  263447  GCTATATAACACGCAATACTTGCTAAAGTAAAAATTGTCA  263486
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  100 bits (110),  Expect = 3e-21
+ Identities = 82/100 (82%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       GCAACACCAGCTCCTGCTCCTTGTATAAAACGGATTAATATTAAAAGTATAATATTATCA  60
+               ||||||||||||||||| |||||||| || || |||| ||| || || |||||| | || 
+Sbjct  366330  GCAACACCAGCTCCTGCCCCTTGTATGAAGCGAATTAGTATCAAGAGCATAATACTGTCG  366271
+
+Query  61      GCTATGCAACATACAATACTTGCCAAAGTAAAAATTGCCA  100
+               |||||  |||| |  | |||||||||||||||||||| ||
+Sbjct  366270  GCTATATAACACATGACACTTGCCAAAGTAAAAATTGTCA  366231
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score = 86.0 bits (94),  Expect = 6e-17
+ Identities = 79/100 (79%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       GCAACACCAGCTCCTGCTCCTTGTATAAAACGGATTAATATTAAAAGTATAATATTATCA  60
+               ||||||||||| |||| ||||||||| || || |||| ||| || ||   |||| | || 
+Sbjct  438489  GCAACACCAGCCCCTGTTCCTTGTATGAAGCGAATTAGTATCAAGAGCGCAATACTGTCG  438548
+
+Query  61      GCTATGCAACATACAATACTTGCCAAAGTAAAAATTGCCA  100
+               |||||  |||| |  | |||||||||||||||||||| ||
+Sbjct  438549  GCTATATAACACATGACACTTGCCAAAGTAAAAATTGTCA  438588
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_529874_530476_4/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome     100    3e-21
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   100    3e-21
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1       ATTTCTTATTGTTAAAAGTTCTATGGAGTTATGGAGCGAAATTTTTGTACATAAGGAGAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  530476  ATTTCTTATTGTTAAAAGTTCTATGGAGTTATGGAGCGAAATTTTTGTACATAAGGAGAA  530417
+
+Query  61      CAAAACAAAGGCAAACGTTAAATCACAAttttttttAGTT  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  530416  CAAAACAAAGGCAAACGTTAAATCACAATTTTTTTTAGTT  530377
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score =  100 bits (110),  Expect = 3e-21
+ Identities = 82/100 (82%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       ATTTCTTATTGTTAAAAGTTCTATGGAGTTATGGAGCGAAATTTTTGTACATAAGGAGAA  60
+               ||| ||||||||||| || |||||||||||| ||   || || ||||||  |||| | ||
+Sbjct  182076  ATTCCTTATTGTTAAGAGCTCTATGGAGTTACGGGATGACATCTTTGTATGTAAGAAAAA  182135
+
+Query  61      CAAAACAAAGGCAAACGTTAAATCACAAttttttttAGTT  100
+                ||||  || ||||||||||||||| ||||||||||||||
+Sbjct  182136  TAAAAAGAAAGCAAACGTTAAATCAAAATTTTTTTTAGTT  182175
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  100 bits (110),  Expect = 3e-21
+ Identities = 82/100 (82%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       ATTTCTTATTGTTAAAAGTTCTATGGAGTTATGGAGCGAAATTTTTGTACATAAGGAGAA  60
+               ||| ||||||||||| || |||||||||||| ||   || || ||||||  |||| | ||
+Sbjct  176149  ATTCCTTATTGTTAAGAGCTCTATGGAGTTACGGGATGACATCTTTGTATGTAAGAAAAA  176208
+
+Query  61      CAAAACAAAGGCAAACGTTAAATCACAAttttttttAGTT  100
+                ||||  || ||||||||||||||| ||||||||||||||
+Sbjct  176209  TAAAAAGAAAGCAAACGTTAAATCAAAATTTTTTTTAGTT  176248
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_529874_530476_4/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome    87.8    2e-17
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...  75.2    1e-13
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       AGAGGCTGCTTGCATAACTCAAATTTTAAGGAAAACTATTTAATGTCATTCCAGCGCGTA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  529874  AGAGGCTGCTTGCATAACTCAAATTTTAAGGAAAACTATTTAATGTCATTCCAGCGCGTA  529933
+
+Query  61      ACGCTGGAATCCAGaaaaaaaGAACCAGTGTCAGCTACTC  100
+               ||||||||||||||||||||||||||||||||||||||||
+Sbjct  529934  ACGCTGGAATCCAGAAAAAAAGAACCAGTGTCAGCTACTC  529973
+
+
+ Score =  105 bits (116),  Expect = 7e-23
+ Identities = 72/81 (88%), Gaps = 0/81 (0%)
+ Strand=Plus/Plus
+
+Query  5        GCTGCTTGCATAACTCAAATTTTAAGGAAAACTATTTAATGTCATTCCAGCGCGTAACGC  64
+                |||||||||||||||||||||  ||| ||||  |||||||||||||||||||||| ||||
+Sbjct  1359024  GCTGCTTGCATAACTCAAATTCAAAGAAAAATCATTTAATGTCATTCCAGCGCGTGACGC  1359083
+
+Query  65       TGGAATCCAGaaaaaaaGAAC  85
+                || ||| |||||| |||||||
+Sbjct  1359084  TGAAATACAGAAATAAAGAAC  1359104
+
+
+ Score = 68.0 bits (74),  Expect = 2e-11
+ Identities = 40/42 (95%), Gaps = 0/42 (0%)
+ Strand=Plus/Plus
+
+Query  43      ATGTCATTCCAGCGCGTAACGCTGGAATCCAGaaaaaaaGAA  84
+               ||||||||||||||||| ||||||||||| ||||||||||||
+Sbjct  904596  ATGTCATTCCAGCGCGTGACGCTGGAATCTAGAAAAAAAGAA  904637
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score = 87.8 bits (96),  Expect = 2e-17
+ Identities = 59/65 (90%), Gaps = 1/65 (1%)
+ Strand=Plus/Plus
+
+Query  37      TATT-TAATGTCATTCCAGCGCGTAACGCTGGAATCCAGaaaaaaaGAACCAGTGTCAGC  95
+               |||| || ||||||||||| || | || ||||||||||||||||||||||||||||||||
+Sbjct  458940  TATTCTACTGTCATTCCAGTGCTTGACACTGGAATCCAGAAAAAAAGAACCAGTGTCAGC  458999
+
+Query  96      TACTC  100
+               |||||
+Sbjct  459000  TACTC  459004
+
+
+ Score = 78.8 bits (86),  Expect = 9e-15
+ Identities = 52/58 (89%), Gaps = 0/58 (0%)
+ Strand=Plus/Plus
+
+Query  43      ATGTCATTCCAGCGCGTAACGCTGGAATCCAGaaaaaaaGAACCAGTGTCAGCTACTC  100
+               ||||||||||||||||| |||||||||||||||||| || ||||| || || ||||||
+Sbjct  875676  ATGTCATTCCAGCGCGTGACGCTGGAATCCAGAAAAGAAAAACCATTGCCAACTACTC  875733
+
+
+ Score = 73.4 bits (80),  Expect = 4e-13
+ Identities = 68/86 (79%), Gaps = 4/86 (4%)
+ Strand=Plus/Plus
+
+Query  3      AGGCTGCTTGCATAACTCAAATTTTAAGGAAAACT----ATTTAATGTCATTCCAGCGCG  58
+              || |||||||||||||    ||||  | ||||| |    |  |  |||||||||||||||
+Sbjct  77952  AGACTGCTTGCATAACCATTATTTACATGAAAAATTAGCAGCTTTTGTCATTCCAGCGCG  78011
+
+Query  59     TAACGCTGGAATCCAGaaaaaaaGAA  84
+              | ||||||||||||||||||||||||
+Sbjct  78012  TGACGCTGGAATCCAGAAAAAAAGAA  78037
+
+
+ Score = 66.2 bits (72),  Expect = 6e-11
+ Identities = 42/46 (91%), Gaps = 0/46 (0%)
+ Strand=Plus/Plus
+
+Query  54      GCGCGTAACGCTGGAATCCAGaaaaaaaGAACCAGTGTCAGCTACT  99
+               || ||| || |||||||| |||||||||||||||||||||||||||
+Sbjct  234364  GCACGTGACACTGGAATCTAGAAAAAAAGAACCAGTGTCAGCTACT  234409
+
+
+ Score = 66.2 bits (72),  Expect = 6e-11
+ Identities = 39/41 (95%), Gaps = 0/41 (0%)
+ Strand=Plus/Plus
+
+Query  44      TGTCATTCCAGCGCGTAACGCTGGAATCCAGaaaaaaaGAA  84
+               |||||||||||||||| ||||||||||| ||||||||||||
+Sbjct  990977  TGTCATTCCAGCGCGTGACGCTGGAATCTAGAAAAAAAGAA  991017
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score = 75.2 bits (82),  Expect = 1e-13
+ Identities = 47/51 (92%), Gaps = 0/51 (0%)
+ Strand=Plus/Plus
+
+Query  36       CTATTTAATGTCATTCCAGCGCGTAACGCTGGAATCCAGaaaaaaaGAACC  86
+                || |||| |||||||||||||||| ||||||||||| ||||||||||||||
+Sbjct  1085809  CTCTTTATTGTCATTCCAGCGCGTGACGCTGGAATCTAGAAAAAAAGAACC  1085859
+
+
+ Score = 73.4 bits (80),  Expect = 4e-13
+ Identities = 51/58 (87%), Gaps = 0/58 (0%)
+ Strand=Plus/Plus
+
+Query  43      ATGTCATTCCAGCGCGTAACGCTGGAATCCAGaaaaaaaGAACCAGTGTCAGCTACTC  100
+               |||||||||||| |||| |||||||||||||||||| || ||||| || || ||||||
+Sbjct  813165  ATGTCATTCCAGTGCGTGACGCTGGAATCCAGAAAAGAAAAACCATTGCCAACTACTC  813222
+
+
+ Score = 69.8 bits (76),  Expect = 5e-12
+ Identities = 53/59 (89%), Gaps = 3/59 (5%)
+ Strand=Plus/Plus
+
+Query  44      TGTCATTCCAGCGCGTAACGCTGGAATCCAGaaaaaaaG-AACCAGT-GTC-AGCTACT  99
+               |||||||||||||||| ||||||||||| |||||||||| ||| ||| ||| |||||||
+Sbjct  283951  TGTCATTCCAGCGCGTGACGCTGGAATCTAGAAAAAAAGAAACAAGTAGTCAAGCTACT  284009
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_1154502_1155087_5/1
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome    95.1    1e-19
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...  95.1    1e-19
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...  84.2    2e-16
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TCTCTTTTTACCAATTCTGCAAGCTCCAGATTGATTTTGTTCACAACTTGATGCCCCTGG  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1155087  TCTCTTTTTACCAATTCTGCAAGCTCCAGATTGATTTTGTTCACAACTTGATGCCCCTGG  1155028
+
+Query  61       TATACAAGAGCAGTGTACAGTTGTACTAAAGAGGCTCCTG  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1155027  TATACAAGAGCAGTGTACAGTTGTACTAAAGAGGCTCCTG  1154988
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score = 95.1 bits (104),  Expect = 1e-19
+ Identities = 81/100 (81%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TCTCTTTTTACCAATTCTGCAAGCTCCAGATTGATTTTGTTCACAACTTGATGCCCCTGG  60
+                |||||  |||  | ||||||||| || ||||| |||||||| ||||||||| | || |||
+Sbjct  1308193  TCTCTCCTTATTAGTTCTGCAAGTTCTAGATTAATTTTGTTTACAACTTGAGGTCCGTGG  1308134
+
+Query  61       TATACAAGAGCAGTGTACAGTTGTACTAAAGAGGCTCCTG  100
+                ||||  |||||||||||||  || || ||||| |||||||
+Sbjct  1308133  TATATGAGAGCAGTGTACAACTGCACCAAAGAAGCTCCTG  1308094
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score = 95.1 bits (104),  Expect = 1e-19
+ Identities = 81/100 (81%), Gaps = 0/100 (0%)
+ Strand=Plus/Minus
+
+Query  1        TCTCTTTTTACCAATTCTGCAAGCTCCAGATTGATTTTGTTCACAACTTGATGCCCCTGG  60
+                |||||  |||  | ||||||||| || ||||| |||||||| ||||||||| | || |||
+Sbjct  1187513  TCTCTCCTTATTAGTTCTGCAAGTTCTAGATTAATTTTGTTTACAACTTGAGGTCCGTGG  1187454
+
+Query  61       TATACAAGAGCAGTGTACAGTTGTACTAAAGAGGCTCCTG  100
+                ||||  |||||||||||||  || || ||||| |||||||
+Sbjct  1187453  TATATGAGAGCAGTGTACAACTGCACCAAAGAAGCTCCTG  1187414
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score = 84.2 bits (92),  Expect = 2e-16
+ Identities = 73/91 (80%), Gaps = 0/91 (0%)
+ Strand=Plus/Minus
+
+Query  10      ACCAATTCTGCAAGCTCCAGATTGATTTTGTTCACAACTTGATGCCCCTGGTATACAAGA  69
+               || || |||||||| |||||||| ||||| |||||| || || | || || ||||  |||
+Sbjct  125045  ACTAACTCTGCAAGTTCCAGATTAATTTTATTCACAGCTCGAGGTCCGTGATATATGAGA  124986
+
+Query  70      GCAGTGTACAGTTGTACTAAAGAGGCTCCTG  100
+               |||||||| | ||| |||||||| || ||||
+Sbjct  124985  GCAGTGTATAATTGCACTAAAGATGCCCCTG  124955
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+Query=  gi|190570478|ref|NC_010981.1|_1154502_1155087_5/2
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex q...   181    1e-45
+  gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome     168    7e-42
+  gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophi...   168    7e-42
+  gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS ...   104    2e-22
+
+
+> gi|190570478|ref|NC_010981.1| Wolbachia endosymbiont of Culex 
+quinquefasciatus Pel, complete genome
+Length=1482455
+
+ Score =  181 bits (200),  Expect = 1e-45
+ Identities = 100/100 (100%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1        ATATAGGAAGAAACAGTACATCAAAGGACCAAATCAGCGATTATGTTGACTTAATAAAGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1154502  ATATAGGAAGAAACAGTACATCAAAGGACCAAATCAGCGATTATGTTGACTTAATAAAGA  1154561
+
+Query  61       TAGTATATGGAAAGAGCAATTATATAGTACTGAACATCTC  100
+                ||||||||||||||||||||||||||||||||||||||||
+Sbjct  1154562  TAGTATATGGAAAGAGCAATTATATAGTACTGAACATCTC  1154601
+
+
+> gi|225629872|ref|NC_012416.1| Wolbachia sp. wRi, complete genome
+Length=1445873
+
+ Score =  168 bits (186),  Expect = 7e-42
+ Identities = 96/98 (97%), Gaps = 0/98 (0%)
+ Strand=Plus/Plus
+
+Query  3        ATAGGAAGAAACAGTACATCAAAGGACCAAATCAGCGATTATGTTGACTTAATAAAGATA  62
+                ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1307601  ATAGGAAAAAACAGTACATCAAAGGACCAAATCAGCGATTATGTTGACTTAATAAAGATA  1307660
+
+Query  63       GTATATGGAAAGAGCAATTATATAGTACTGAACATCTC  100
+                |||||||||||||||||||||||||| |||||||||||
+Sbjct  1307661  GTATATGGAAAGAGCAATTATATAGTGCTGAACATCTC  1307698
+
+
+> gi|42519920|ref|NC_002978.6| Wolbachia endosymbiont of Drosophila 
+melanogaster, complete genome
+Length=1267782
+
+ Score =  168 bits (186),  Expect = 7e-42
+ Identities = 96/98 (97%), Gaps = 0/98 (0%)
+ Strand=Plus/Plus
+
+Query  3        ATAGGAAGAAACAGTACATCAAAGGACCAAATCAGCGATTATGTTGACTTAATAAAGATA  62
+                ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1186921  ATAGGAAAAAACAGTACATCAAAGGACCAAATCAGCGATTATGTTGACTTAATAAAGATA  1186980
+
+Query  63       GTATATGGAAAGAGCAATTATATAGTACTGAACATCTC  100
+                |||||||||||||||||||||||||| |||||||||||
+Sbjct  1186981  GTATATGGAAAGAGCAATTATATAGTGCTGAACATCTC  1187018
+
+
+> gi|58584261|ref|NC_006833.1| Wolbachia endosymbiont strain TRS 
+of Brugia malayi, complete genome
+Length=1080084
+
+ Score =  104 bits (114),  Expect = 2e-22
+ Identities = 83/100 (83%), Gaps = 0/100 (0%)
+ Strand=Plus/Plus
+
+Query  1       ATATAGGAAGAAACAGTACATCAAAGGACCAAATCAGCGATTATGTTGACTTAATAAAGA  60
+               ||||||| | ||| ||| |||| ||||||||| |||| |||||  |||||||||||||||
+Sbjct  124460  ATATAGGGAAAAATAGTGCATCGAAGGACCAAGTCAGTGATTACATTGACTTAATAAAGA  124519
+
+Query  61      TAGTATATGGAAAGAGCAATTATATAGTACTGAACATCTC  100
+               | || ||||| || || | ||||||||| || ||||||||
+Sbjct  124520  TGGTGTATGGGAAAAGTAGTTATATAGTGCTAAACATCTC  124559
+
+
+
+Lambda     K      H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda     K      H
+   0.625    0.410    0.780 
+
+Effective search space used: 4975018125
+
+
+  Database: ALL_FNA
+    Posted date:  Mar 2, 2011  6:52 PM
+  Number of letters in database: 66,334,500
+  Number of sequences in database:  37
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -41,3 +41,4 @@ toTest_mergePE-Fwd-Rev.sh
 unpaired.fwd.test.unord.fq.fas
 unpaired.rev.test.unord.fq.fas
 pairs.fwd.paired.out.fq
+.project
